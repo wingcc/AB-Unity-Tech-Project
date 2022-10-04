@@ -1,0 +1,156 @@
+{
+    "mainName": "name",
+    "main": {
+      "nodes": [
+        {
+          "name": "S-NODE 1",
+          "nodeId": 1,
+          "nodeType": "SNode",
+          "nextNodeID": 2,
+          "startTime": 0,
+          "endTime": 10,
+          "origin": {
+            "position": [
+              2,
+              2,
+              0
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "nodeElements": [
+            {
+              "elementType": "Sound",
+              "sound": {
+                "objectName": "objectName",
+                "objectId": "iu8nfs",
+                "audioType": "MPEG",
+                "audioUrl": "www.sample.com/audioUrl",
+                "loop": false,
+                "volume": 1,
+                "pitch": 1,
+                "spatialMode": "3D",
+                "minDistance": 0,
+                "maxDistance": 500,
+                "startTime": 0,
+                "endTime": 10
+              }
+            },
+            {
+              "elementType": "Character",
+              "character": {
+                "id": "kg835u7t",
+                "name": "CharacterNameL",
+                "startTime": 0,
+                "endTime": 10,
+                "model": "-MFnN1FuEwtOLfDb5mj0",
+                "elements": [
+                  {
+                    "elementType": "Animation",
+                    "animation": {
+                      "animationId": "-M0akjs-xxkal2",
+                      "destination": {
+                        "position": [
+                          2,
+                          0,
+                          0
+                        ],
+                        "rotation": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      "endTime": 10,
+                      "loopCount": 1,
+                      "name": "Dancing",
+                      "startTime": 0
+                    },
+                    "id": "kg835zt5"
+                  }
+                ]
+              }
+            },
+            {
+              "elementType": "Character",
+              "character": {
+                "id": "B835u7t",
+                "name": "CharacterNameB",
+                "startTime": 0,
+                "endTime": 10,
+                "model": "-MFnN1tOLf123",
+                "origin": {
+                    "position": [
+                      2,
+                      2,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      90,
+                      0
+                    ]
+                  },
+                "elements": [
+                  {
+                    "elementType": "Animation",
+                    "animation": {
+                      "animationId": "-M0akjs-34saz",
+                      "destination": {
+                        "position": [
+                          2,
+                          0,
+                          0
+                        ],
+                        "rotation": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      "endTime": 10,
+                      "loopCount": 1,
+                      "name": "Walking",
+                      "startTime": 0
+                    },
+                    "id": "kg8asd11"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "L-NODE 1",
+          "nodeId": 2,
+          "nodeType": "LNode",
+          "conditions": [
+            {
+              "conditionType": "Event",
+              "event": {
+                "desiredEventValue": 1,
+                "eventType": "OnEventComplete"
+              }
+            }
+          ]
+        },
+        {
+          "name": "L-NODE 3",
+          "nodeId":3,
+          "nodeType": "LNode",
+          "conditions": [
+            {
+              "conditionType": "Event",
+              "event": {
+                "desiredEventValue": 3,
+                "eventType": "OnEventComplete"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
