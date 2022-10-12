@@ -1,0 +1,19 @@
+{
+    "characters": [
+        {
+            "Name": "puppet_kid",
+            "PlayerLink": "https://github.com/wingcc/AB-Unity-Tech-Project/raw/main/puppet_kid",
+            "color": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ]
+}
