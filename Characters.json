@@ -14,6 +14,21 @@
                 "y": 0.0,
                 "z": 0.0
             }
+        },
+        {
+            "Name": "puppet_kid",
+            "PlayerLink": "https://github.com/wingcc/AB-Unity-Tech-Project/raw/main/puppet_kid2",
+            "color": "#0F90FC",
+            "Position": {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 2.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
         }
     ]
 }
